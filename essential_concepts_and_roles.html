@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        .button-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f0f0f0;
+            transition: background-color 0.3s ease;
+            width: 200px; /* Fixed width for consistent size */
+            text-align: center;
+            white-space: nowrap; /* Prevent wrapping of text */
+        }
+        button:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+    <script>
+        function toggleText(button, englishWord, vietnameseWord) {
+            button.textContent = button.textContent === englishWord ? vietnameseWord : englishWord;
+        }
+    </script>
+</head>
+<body>
+    <h1>Vocabulary Practice</h1>
+    <p>Click on a button to toggle between English and Vietnamese.</p>
+    <div class="button-grid">
+
+        <button onclick="toggleText(this, 'action', 'hành động')">action</button>
+    
+        <button onclick="toggleText(this, 'game', 'trò chơi')">game</button>
+    
+        <button onclick="toggleText(this, 'situation', 'tình hình')">situation</button>
+    
+        <button onclick="toggleText(this, 'phenomenon', 'hiện tượng')">phenomenon</button>
+    
+        <button onclick="toggleText(this, 'occasion, opportunity', 'cơ hội')">occasion, opportunity</button>
+    
+        <button onclick="toggleText(this, 'evidence', 'bằng chứng')">evidence</button>
+    
+        <button onclick="toggleText(this, 'testament, will', 'di chúc')">testament, will</button>
+    
+        <button onclick="toggleText(this, 'prize, award', 'giải thưởng')">prize, award</button>
+    
+        <button onclick="toggleText(this, 'hope', 'niềm hy vọng')">hope</button>
+    
+        <button onclick="toggleText(this, 'protection', 'sự bảo vệ')">protection</button>
+    
+        <button onclick="toggleText(this, 'choice', 'sự lựa chọn')">choice</button>
+    
+        <button onclick="toggleText(this, 'turn, turns', 'lượt')">turn, turns</button>
+    
+        <button onclick="toggleText(this, 'wish', 'điều ước')">wish</button>
+    
+        <button onclick="toggleText(this, 'role', 'vai trò')">role</button>
+    
+        <button onclick="toggleText(this, 'purpose, objective', 'mục đích')">purpose, objective</button>
+    
+        <button onclick="toggleText(this, 'value', 'giá trị')">value</button>
+    
+        <button onclick="toggleText(this, 'problem, problems, issue', 'vấn đề')">problem, problems, issue</button>
+    
+        <button onclick="toggleText(this, 'mind', 'tâm trí')">mind</button>
+    
+        <button onclick="toggleText(this, 'affect', 'ảnh hưởng')">affect</button>
+    
+        <button onclick="toggleText(this, 'deal', 'thoả thuận')">deal</button>
+    
+        <button onclick="toggleText(this, 'solution', 'giải pháp')">solution</button>
+    
+        <button onclick="toggleText(this, 'result', 'kết quả')">result</button>
+    
+        <button onclick="toggleText(this, 'option', 'lựa chọn')">option</button>
+    
+        <button onclick="toggleText(this, 'case', 'trường hợp')">case</button>
+    
+        <button onclick="toggleText(this, 'level', 'cấp độ')">level</button>
+    
+        <button onclick="toggleText(this, 'content', 'nội dung')">content</button>
+    
+        <button onclick="toggleText(this, 'sorts, kind of, kind', 'loại')">sorts, kind of, kind</button>
+    
+        <button onclick="toggleText(this, 'edition, version', 'phiên bản')">edition, version</button>
+    
+        <button onclick="toggleText(this, 'profile, record, curriculum vitae', 'hồ sơ')">profile, record, curriculum vitae</button>
+    
+        <button onclick="toggleText(this, 'account', 'tài khoản')">account</button>
+    
+        <button onclick="toggleText(this, 'list', 'danh sách')">list</button>
+    
+        <button onclick="toggleText(this, 'group, team', 'nhóm')">group, team</button>
+    
+        <button onclick="toggleText(this, 'service', 'dịch vụ')">service</button>
+    
+        <button onclick="toggleText(this, 'system', 'hệ thống')">system</button>
+    
+        <button onclick="toggleText(this, 'member, members', 'thành viên')">member, members</button>
+    
+    </div>
+</body>
+</html>
