@@ -1,0 +1,78 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Professions Vocabulary</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                margin: 20px;
+            }
+            .button-grid {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+            }
+            button {
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                background-color: #f0f0f0;
+                transition: background-color 0.3s ease;
+                width: 200px; /* Fixed width for consistent size */
+                text-align: center;
+                white-space: nowrap; /* Prevent wrapping of text */
+            }
+            button:hover {
+                background-color: #e0e0e0;
+            }
+        </style>
+        <script>
+            function toggleText(button, englishWord, vietnameseWord) {
+                button.textContent = button.textContent === englishWord ? vietnameseWord : englishWord;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Professions Vocabulary</h1>
+        <p>Click on a button to toggle between English and Vietnamese.</p>
+        <div class="button-grid">
+    
+            <button onclick="toggleText(this, 'interpreter', 'thông dịch viên')">interpreter</button>
+        
+            <button onclick="toggleText(this, 'researcher', 'nhà nghiên cứu')">researcher</button>
+        
+            <button onclick="toggleText(this, 'philosopher', 'nhà triết học')">philosopher</button>
+        
+            <button onclick="toggleText(this, 'sailor', 'thuỷ thủ')">sailor</button>
+        
+            <button onclick="toggleText(this, 'historian', 'nhà sử học')">historian</button>
+        
+            <button onclick="toggleText(this, 'worker, employee, workers', 'nhân viên')">worker, employee, workers</button>
+        
+            <button onclick="toggleText(this, 'carpenter', 'thợ mộc')">carpenter</button>
+        
+            <button onclick="toggleText(this, 'poet', 'nhà thơ')">poet</button>
+        
+            <button onclick="toggleText(this, 'author', 'tác giả')">author</button>
+        
+            <button onclick="toggleText(this, 'writer', 'nhà văn')">writer</button>
+        
+            <button onclick="toggleText(this, 'painter', 'hoạ sĩ')">painter</button>
+        
+            <button onclick="toggleText(this, 'hairdresser', 'thợ làm tóc')">hairdresser</button>
+        
+            <button onclick="toggleText(this, 'driver', 'tài xế')">driver</button>
+        
+            <button onclick="toggleText(this, 'librarian', 'thủ thư')">librarian</button>
+        
+        </div>
+    </body>
+    </html>
+    
